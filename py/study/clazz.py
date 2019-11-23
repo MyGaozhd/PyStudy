@@ -10,6 +10,10 @@ class Human:
         self.sex = sex
         print(self)
 
+    def _home(self):
+        print(self.name + "回家了！")
+        return
+
     def __home(self):
         print(self.name + "回家了！")
         return
